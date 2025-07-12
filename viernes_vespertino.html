@@ -1,0 +1,1497 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a9096f9861bd5645c52f4893184fa215 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a9096f9861bd5645c52f4893184fa215" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a9096f9861bd5645c52f4893184fa215 = L.map(
+                "map_a9096f9861bd5645c52f4893184fa215",
+                {
+                    center: [20.73, -103.42],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e8e19fd03a7ab4aeff4aa581d5d0e6c1 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_e8e19fd03a7ab4aeff4aa581d5d0e6c1.addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+            var marker_5c692414c13e421e2bff57a0cdbbc291 = L.marker(
+                [20.7081507, -103.4227915],
+                {
+}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+            var icon_7da7afcd1552c38a72ac7888b91726ec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0eed2cb4596b1b5622c8f81e0244c1b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fcc0beeedcd113a16c97915c36cd7a5c = $(`<div id="html_fcc0beeedcd113a16c97915c36cd7a5c" style="width: 100.0%; height: 100.0%;">ID: 1 Type: lodging Address: Av. Paseo Royal Country 5505, Royal Country, 45116 Zapopan, Jal., Mexico</div>`)[0];
+                popup_0eed2cb4596b1b5622c8f81e0244c1b6.setContent(html_fcc0beeedcd113a16c97915c36cd7a5c);
+            
+        
+
+        marker_5c692414c13e421e2bff57a0cdbbc291.bindPopup(popup_0eed2cb4596b1b5622c8f81e0244c1b6)
+        ;
+
+        
+    
+    
+                marker_5c692414c13e421e2bff57a0cdbbc291.setIcon(icon_7da7afcd1552c38a72ac7888b91726ec);
+            
+    
+            var marker_a85175d517b31285abfd448d7f86165a = L.marker(
+                [20.7374419, -103.4118717],
+                {
+}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+            var icon_12004384568c1b99b998a259bfd4ed0a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b038c07551f80dfb4f59a71ba4447020 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_33fce980f0dc6bfd370c3d31f45df989 = $(`<div id="html_33fce980f0dc6bfd370c3d31f45df989" style="width: 100.0%; height: 100.0%;">ID: 2 Type: lodging Address: De Las Nueces 1209, La Tuzania, 45138 Zapopan, Jal., Mexico</div>`)[0];
+                popup_b038c07551f80dfb4f59a71ba4447020.setContent(html_33fce980f0dc6bfd370c3d31f45df989);
+            
+        
+
+        marker_a85175d517b31285abfd448d7f86165a.bindPopup(popup_b038c07551f80dfb4f59a71ba4447020)
+        ;
+
+        
+    
+    
+                marker_a85175d517b31285abfd448d7f86165a.setIcon(icon_12004384568c1b99b998a259bfd4ed0a);
+            
+    
+            var marker_08948e34e810b140ffb83da539c18123 = L.marker(
+                [20.7312874, -103.4107494],
+                {
+}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+            var icon_32e0b190ae23e5194acb55103907f1af = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f29b07d2af8c62ffc33a711438bb32a6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c29fd00c9abbdf12163b85c0eec448c0 = $(`<div id="html_c29fd00c9abbdf12163b85c0eec448c0" style="width: 100.0%; height: 100.0%;">ID: 3 Type: lodging Address: Av. Sta. Margarita 184A, La Arboleda, 45148 Zapopan, Jal., Mexico</div>`)[0];
+                popup_f29b07d2af8c62ffc33a711438bb32a6.setContent(html_c29fd00c9abbdf12163b85c0eec448c0);
+            
+        
+
+        marker_08948e34e810b140ffb83da539c18123.bindPopup(popup_f29b07d2af8c62ffc33a711438bb32a6)
+        ;
+
+        
+    
+    
+                marker_08948e34e810b140ffb83da539c18123.setIcon(icon_32e0b190ae23e5194acb55103907f1af);
+            
+    
+            var marker_f958930901aa840961e8d771c6f3e7fd = L.marker(
+                [20.7645937, -103.4196702],
+                {
+}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+            var icon_9fc351c58770700588b822049ecca807 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_16310039263e8281d2da0c7723a5fc45 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_09fd33d2438ef87ee9e88bc8a34dabfe = $(`<div id="html_09fd33d2438ef87ee9e88bc8a34dabfe" style="width: 100.0%; height: 100.0%;">ID: 4 Type: lodging Address: De Las Limas 2795, Colinas de Los Robles, 45134 Nuevo México, Jal., Mexico</div>`)[0];
+                popup_16310039263e8281d2da0c7723a5fc45.setContent(html_09fd33d2438ef87ee9e88bc8a34dabfe);
+            
+        
+
+        marker_f958930901aa840961e8d771c6f3e7fd.bindPopup(popup_16310039263e8281d2da0c7723a5fc45)
+        ;
+
+        
+    
+    
+                marker_f958930901aa840961e8d771c6f3e7fd.setIcon(icon_9fc351c58770700588b822049ecca807);
+            
+    
+            var marker_7d3fd93333e576806f367c5cd8151b8e = L.marker(
+                [20.779818, -103.439507],
+                {
+}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+            var icon_df980c795442a606a08d41d70ceedf34 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_70b20c9f2288abb0b5deecd922ea2844 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_747a16e057914270c7805fd6e1799117 = $(`<div id="html_747a16e057914270c7805fd6e1799117" style="width: 100.0%; height: 100.0%;">ID: 5 Type: lodging Address: Avellaneda 134, Valle Imperial, 45134 Zapopan, Jal., Mexico</div>`)[0];
+                popup_70b20c9f2288abb0b5deecd922ea2844.setContent(html_747a16e057914270c7805fd6e1799117);
+            
+        
+
+        marker_7d3fd93333e576806f367c5cd8151b8e.bindPopup(popup_70b20c9f2288abb0b5deecd922ea2844)
+        ;
+
+        
+    
+    
+                marker_7d3fd93333e576806f367c5cd8151b8e.setIcon(icon_df980c795442a606a08d41d70ceedf34);
+            
+    
+            var marker_1f3f9d8290259c6894bed7bfd24fe8a0 = L.marker(
+                [20.7595087, -103.3783665],
+                {
+}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+            var icon_950658c622100ef5fbb2cf1716654152 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1de4da3dcff103c644c5a024409fbbca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_409084f49f863d2fde8a6f41167a8033 = $(`<div id="html_409084f49f863d2fde8a6f41167a8033" style="width: 100.0%; height: 100.0%;">ID: 6 Type: lodging Address: P.º de la Primavera 564, Centinela I, 45187 Zapopan, Jal., Mexico</div>`)[0];
+                popup_1de4da3dcff103c644c5a024409fbbca.setContent(html_409084f49f863d2fde8a6f41167a8033);
+            
+        
+
+        marker_1f3f9d8290259c6894bed7bfd24fe8a0.bindPopup(popup_1de4da3dcff103c644c5a024409fbbca)
+        ;
+
+        
+    
+    
+                marker_1f3f9d8290259c6894bed7bfd24fe8a0.setIcon(icon_950658c622100ef5fbb2cf1716654152);
+            
+    
+            var marker_3b4f97af4a3912990d0bdbbac3078dc7 = L.marker(
+                [20.7739765, -103.4532654],
+                {
+}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+            var icon_fd5738570902258b36256d3db9b9bb4b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1b95c1ba436c4bb9236614c33492d85f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ad11166ea30fadb4de7e4021517ee695 = $(`<div id="html_ad11166ea30fadb4de7e4021517ee695" style="width: 100.0%; height: 100.0%;">ID: 7 Type: lodging Address: Av. Juan Gil Preciado 6507, Marcelino García Barragán, 45138 Nuevo México, Jal., Mexico</div>`)[0];
+                popup_1b95c1ba436c4bb9236614c33492d85f.setContent(html_ad11166ea30fadb4de7e4021517ee695);
+            
+        
+
+        marker_3b4f97af4a3912990d0bdbbac3078dc7.bindPopup(popup_1b95c1ba436c4bb9236614c33492d85f)
+        ;
+
+        
+    
+    
+                marker_3b4f97af4a3912990d0bdbbac3078dc7.setIcon(icon_fd5738570902258b36256d3db9b9bb4b);
+            
+    
+            var marker_efece39bc4e866566bee866ee4468b72 = L.marker(
+                [20.7573742, -103.4033551],
+                {
+}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+            var icon_b2814445f516a52bc20ffeb09cd372da = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f7a571e415bacd2f4de68d06458b9eb7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_90d89e4858e457513bb2c145352bc947 = $(`<div id="html_90d89e4858e457513bb2c145352bc947" style="width: 100.0%; height: 100.0%;">ID: 8 Type: lodging Address: Castilla de la Mancha, Real de Valdepeñas, 45130 Zapopan, Jal., Mexico</div>`)[0];
+                popup_f7a571e415bacd2f4de68d06458b9eb7.setContent(html_90d89e4858e457513bb2c145352bc947);
+            
+        
+
+        marker_efece39bc4e866566bee866ee4468b72.bindPopup(popup_f7a571e415bacd2f4de68d06458b9eb7)
+        ;
+
+        
+    
+    
+                marker_efece39bc4e866566bee866ee4468b72.setIcon(icon_b2814445f516a52bc20ffeb09cd372da);
+            
+    
+            var marker_1e2fbebf9ed946c16946d4bd396b6dbe = L.marker(
+                [20.7444315, -103.4264417],
+                {
+}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+            var icon_385d90636c5bdd122fe700b1fdf4d2a2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_83accd64c725b8dc5b0629ded630bfba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_064a5f872e5ee1432be8f39409da0a4d = $(`<div id="html_064a5f872e5ee1432be8f39409da0a4d" style="width: 100.0%; height: 100.0%;">ID: 9 Type: lodging Address: Valle del Danubio 1710, Jardines del Valle, 45138 Zapopan, Jal., Mexico</div>`)[0];
+                popup_83accd64c725b8dc5b0629ded630bfba.setContent(html_064a5f872e5ee1432be8f39409da0a4d);
+            
+        
+
+        marker_1e2fbebf9ed946c16946d4bd396b6dbe.bindPopup(popup_83accd64c725b8dc5b0629ded630bfba)
+        ;
+
+        
+    
+    
+                marker_1e2fbebf9ed946c16946d4bd396b6dbe.setIcon(icon_385d90636c5bdd122fe700b1fdf4d2a2);
+            
+    
+            var marker_74785400840cf5c64b8c3e2159aed319 = L.marker(
+                [20.7463704, -103.4086465],
+                {
+}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+            var icon_1ea11f738c69b4f512362a5d0ff6e0ee = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3880a555c36902b8d99e87c3396cc76e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4bc7d7191b81faabdcb7df41c697d7dd = $(`<div id="html_4bc7d7191b81faabdcb7df41c697d7dd" style="width: 100.0%; height: 100.0%;">ID: 11 Type: lodging Address: Somosierra 2139, Lomas de Zapopan, 45130 Zapopan, Jal., Mexico</div>`)[0];
+                popup_3880a555c36902b8d99e87c3396cc76e.setContent(html_4bc7d7191b81faabdcb7df41c697d7dd);
+            
+        
+
+        marker_74785400840cf5c64b8c3e2159aed319.bindPopup(popup_3880a555c36902b8d99e87c3396cc76e)
+        ;
+
+        
+    
+    
+                marker_74785400840cf5c64b8c3e2159aed319.setIcon(icon_1ea11f738c69b4f512362a5d0ff6e0ee);
+            
+    
+            var marker_a8172034303940f46fdb966dcdf4c06f = L.marker(
+                [20.7277106, -103.4236882],
+                {
+}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+            var icon_9e81181d6ae363e218d870f78126b2bd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_012342f2c4752e35f1eb2300c6761924 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4242daa3ee45790c86a6ea74e0314388 = $(`<div id="html_4242daa3ee45790c86a6ea74e0314388" style="width: 100.0%; height: 100.0%;">ID: 12 Type: lodging Address: C. Magnolias 785, Los Girasoles, 45136 Zapopan, Jal., Mexico</div>`)[0];
+                popup_012342f2c4752e35f1eb2300c6761924.setContent(html_4242daa3ee45790c86a6ea74e0314388);
+            
+        
+
+        marker_a8172034303940f46fdb966dcdf4c06f.bindPopup(popup_012342f2c4752e35f1eb2300c6761924)
+        ;
+
+        
+    
+    
+                marker_a8172034303940f46fdb966dcdf4c06f.setIcon(icon_9e81181d6ae363e218d870f78126b2bd);
+            
+    
+            var marker_7e51c3d8b00aec5057ce5da471328b6f = L.marker(
+                [20.7147632, -103.4179045],
+                {
+}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+            var icon_acf4630682270bca27ebd91199313781 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_800a171e2d187a2a828ab6d4820bd258 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c685fe29acf5f648c044bb8a1fd7f9c = $(`<div id="html_5c685fe29acf5f648c044bb8a1fd7f9c" style="width: 100.0%; height: 100.0%;">ID: 13 Type: lodging Address: Coto Castilla Vieja, Puerta de Hierro, 45116 Zapopan, Jal., Mexico</div>`)[0];
+                popup_800a171e2d187a2a828ab6d4820bd258.setContent(html_5c685fe29acf5f648c044bb8a1fd7f9c);
+            
+        
+
+        marker_7e51c3d8b00aec5057ce5da471328b6f.bindPopup(popup_800a171e2d187a2a828ab6d4820bd258)
+        ;
+
+        
+    
+    
+                marker_7e51c3d8b00aec5057ce5da471328b6f.setIcon(icon_acf4630682270bca27ebd91199313781);
+            
+    
+            var marker_2e60aff4d3021ee019088970393e3e85 = L.marker(
+                [20.7379958, -103.4130039],
+                {
+}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+            var icon_41052cd6f4ab21523602778da36893fb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_faa69a0cf0ba7ec48950dccd2146cbb4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_221e0bdb7a7ecfaa6fdc14bb78a30edb = $(`<div id="html_221e0bdb7a7ecfaa6fdc14bb78a30edb" style="width: 100.0%; height: 100.0%;">ID: 105 Type: driver Address: C. Alerces 403, La Tuzania, 45138 Zapopan, Jal., Mexico Name: Esteban Ayala</div>`)[0];
+                popup_faa69a0cf0ba7ec48950dccd2146cbb4.setContent(html_221e0bdb7a7ecfaa6fdc14bb78a30edb);
+            
+        
+
+        marker_2e60aff4d3021ee019088970393e3e85.bindPopup(popup_faa69a0cf0ba7ec48950dccd2146cbb4)
+        ;
+
+        
+    
+    
+                marker_2e60aff4d3021ee019088970393e3e85.setIcon(icon_41052cd6f4ab21523602778da36893fb);
+            
+    
+            var marker_6af33ab6af3453108592449e0b28fb53 = L.marker(
+                [20.7402078, -103.4185651],
+                {
+}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+            var icon_3db5b71bb504a16fdb139df753b622d0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_78650027b8da7afc2171c145e0a99e01 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_213e48096b12105d2753741cc78a9ca0 = $(`<div id="html_213e48096b12105d2753741cc78a9ca0" style="width: 100.0%; height: 100.0%;">ID: 109 Type: driver Address: Sta. Cecilia 714, Sta Margarita, 45138 Zapopan, Jal., Mexico Name: Jair Arellano</div>`)[0];
+                popup_78650027b8da7afc2171c145e0a99e01.setContent(html_213e48096b12105d2753741cc78a9ca0);
+            
+        
+
+        marker_6af33ab6af3453108592449e0b28fb53.bindPopup(popup_78650027b8da7afc2171c145e0a99e01)
+        ;
+
+        
+    
+    
+                marker_6af33ab6af3453108592449e0b28fb53.setIcon(icon_3db5b71bb504a16fdb139df753b622d0);
+            
+    
+            var marker_f632e44ad8fadba316fd5582cbf73584 = L.marker(
+                [20.741361, -103.425519],
+                {
+}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+            var icon_45dd0f1e2f4114e4c48ea580b7f4190b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c47d3b4ae081036d06dfe7f64440c39d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ef5516f3ebc2fd79f36563dd39ad7ce = $(`<div id="html_8ef5516f3ebc2fd79f36563dd39ad7ce" style="width: 100.0%; height: 100.0%;">ID: 113 Type: driver Address: Valle del Volga 1719, Jardines del Valle, 45138 Zapopan, Jal., Mexico Name: María Inés Hernández</div>`)[0];
+                popup_c47d3b4ae081036d06dfe7f64440c39d.setContent(html_8ef5516f3ebc2fd79f36563dd39ad7ce);
+            
+        
+
+        marker_f632e44ad8fadba316fd5582cbf73584.bindPopup(popup_c47d3b4ae081036d06dfe7f64440c39d)
+        ;
+
+        
+    
+    
+                marker_f632e44ad8fadba316fd5582cbf73584.setIcon(icon_45dd0f1e2f4114e4c48ea580b7f4190b);
+            
+    
+            var marker_b2553c14d0a8f81b181ac067a93b29ed = L.marker(
+                [20.7491995, -103.4348342],
+                {
+}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+            var icon_a3464589635470e5c9f103084b43089a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3cd0c7632a19c6b55dfaee44416b271e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1698d32d0bd472e948e4eb91b2c5e5b1 = $(`<div id="html_1698d32d0bd472e948e4eb91b2c5e5b1" style="width: 100.0%; height: 100.0%;">ID: 115 Type: driver Address: Av. Valle de México 2851, Viveros del Valle, Jardines del Valle, 45138 Zapopan, Jal., Mexico Name: Raúl Jaramillo</div>`)[0];
+                popup_3cd0c7632a19c6b55dfaee44416b271e.setContent(html_1698d32d0bd472e948e4eb91b2c5e5b1);
+            
+        
+
+        marker_b2553c14d0a8f81b181ac067a93b29ed.bindPopup(popup_3cd0c7632a19c6b55dfaee44416b271e)
+        ;
+
+        
+    
+    
+                marker_b2553c14d0a8f81b181ac067a93b29ed.setIcon(icon_a3464589635470e5c9f103084b43089a);
+            
+    
+            var marker_d645e30570dabebbc133b460f387aeb6 = L.marker(
+                [20.7428838, -103.4411637],
+                {
+}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+            var icon_8e7a5c047ad241859baa6956ac03a2eb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c178c5a2e60e1b97ce24885256bfacc5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9d46203f6a534323255830e0a0c2b6cb = $(`<div id="html_9d46203f6a534323255830e0a0c2b6cb" style="width: 100.0%; height: 100.0%;">ID: 118 Type: driver Address: C. Valle de Mazamitla 36, Jardín Real, 45136 Zapopan, Jal., Mexico Name: Alfredo Ferra</div>`)[0];
+                popup_c178c5a2e60e1b97ce24885256bfacc5.setContent(html_9d46203f6a534323255830e0a0c2b6cb);
+            
+        
+
+        marker_d645e30570dabebbc133b460f387aeb6.bindPopup(popup_c178c5a2e60e1b97ce24885256bfacc5)
+        ;
+
+        
+    
+    
+                marker_d645e30570dabebbc133b460f387aeb6.setIcon(icon_8e7a5c047ad241859baa6956ac03a2eb);
+            
+    
+            var marker_66d2d2ea25f2678b97a45ffc9a8795f0 = L.marker(
+                [20.747857, -103.441028],
+                {
+}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+            var icon_d1a2363686a8e3295be0728df7514749 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_67673ba64076c9f2ee477fdff254813d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2279bf8083d1b835d949cdd8dfebdfc = $(`<div id="html_a2279bf8083d1b835d949cdd8dfebdfc" style="width: 100.0%; height: 100.0%;">ID: 131 Type: driver Address: Nextipac 3620, Colonia Colegio del Aire Name: Antonio Madero</div>`)[0];
+                popup_67673ba64076c9f2ee477fdff254813d.setContent(html_a2279bf8083d1b835d949cdd8dfebdfc);
+            
+        
+
+        marker_66d2d2ea25f2678b97a45ffc9a8795f0.bindPopup(popup_67673ba64076c9f2ee477fdff254813d)
+        ;
+
+        
+    
+    
+                marker_66d2d2ea25f2678b97a45ffc9a8795f0.setIcon(icon_d1a2363686a8e3295be0728df7514749);
+            
+    
+            var marker_d1063770b93520373d26f5390bd3ee54 = L.marker(
+                [20.7285629, -103.4272958],
+                {
+}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+            var icon_fcdb630dab9c64ac60a672acaf744fab = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dc0f3eb81657b1e96318d2722468729c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3942213a8ef6a71a38eb669280f61e27 = $(`<div id="html_3942213a8ef6a71a38eb669280f61e27" style="width: 100.0%; height: 100.0%;">ID: 132 Type: driver Address: C. José Casal 3557, Residencial Poniente, 45136 Zapopan, Jal., Mexico Name: Josué Rangel</div>`)[0];
+                popup_dc0f3eb81657b1e96318d2722468729c.setContent(html_3942213a8ef6a71a38eb669280f61e27);
+            
+        
+
+        marker_d1063770b93520373d26f5390bd3ee54.bindPopup(popup_dc0f3eb81657b1e96318d2722468729c)
+        ;
+
+        
+    
+    
+                marker_d1063770b93520373d26f5390bd3ee54.setIcon(icon_fcdb630dab9c64ac60a672acaf744fab);
+            
+    
+            var marker_b9d855b47ba09ccedbad902b6e1365ed = L.marker(
+                [20.7793959, -103.4385387],
+                {
+}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+            var icon_4ffffc90544cc8af9566208aab9dbefd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9a9c9795f7734e44f9fc2b03b828ef69 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_61a62e3ee1310bff76a5b7409be7cda2 = $(`<div id="html_61a62e3ee1310bff76a5b7409be7cda2" style="width: 100.0%; height: 100.0%;">ID: 136 Type: driver Address: Formosa 630, Valle Imperial, 45134 Zapopan, Jal., Mexico Name: Alejandra Zavala</div>`)[0];
+                popup_9a9c9795f7734e44f9fc2b03b828ef69.setContent(html_61a62e3ee1310bff76a5b7409be7cda2);
+            
+        
+
+        marker_b9d855b47ba09ccedbad902b6e1365ed.bindPopup(popup_9a9c9795f7734e44f9fc2b03b828ef69)
+        ;
+
+        
+    
+    
+                marker_b9d855b47ba09ccedbad902b6e1365ed.setIcon(icon_4ffffc90544cc8af9566208aab9dbefd);
+            
+    
+            var marker_e15f795a3249ab79f6c1a33d6b0b3255 = L.marker(
+                [20.7307097, -103.4196304],
+                {
+}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+            var icon_77dd80046847b947e3b4c618a7593eaa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ab5552130f327a58b3336584da06c293 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7d4d7e7c73bb585c2b444d658daf287 = $(`<div id="html_a7d4d7e7c73bb585c2b444d658daf287" style="width: 100.0%; height: 100.0%;">ID: 1000 Type: hall Address: Av. Sta. Margarita 1404, Santa Margarita1a Secc., 45140 Zapopan, Jal., Mexico</div>`)[0];
+                popup_ab5552130f327a58b3336584da06c293.setContent(html_a7d4d7e7c73bb585c2b444d658daf287);
+            
+        
+
+        marker_e15f795a3249ab79f6c1a33d6b0b3255.bindPopup(popup_ab5552130f327a58b3336584da06c293)
+        ;
+
+        
+    
+    
+                marker_e15f795a3249ab79f6c1a33d6b0b3255.setIcon(icon_77dd80046847b947e3b4c618a7593eaa);
+            
+    
+            var poly_line_6c7f35a585bca73ec050118ae56c35d6 = L.polyline(
+                [[20.7307097, -103.4196304], [20.7307097, -103.4196304]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+        var popup_ac838bc7cf9ac0bbbf4279fdf6ed577b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd06630a3490e6a1bd8307a404cffecc = $(`<div id="html_fd06630a3490e6a1bd8307a404cffecc" style="width: 100.0%; height: 100.0%;">Route 1: 1000 to 1000</div>`)[0];
+                popup_ac838bc7cf9ac0bbbf4279fdf6ed577b.setContent(html_fd06630a3490e6a1bd8307a404cffecc);
+            
+        
+
+        poly_line_6c7f35a585bca73ec050118ae56c35d6.bindPopup(popup_ac838bc7cf9ac0bbbf4279fdf6ed577b)
+        ;
+
+        
+    
+    
+            var poly_line_5efe915cd34c40af10f1c7df33507fcd = L.polyline(
+                [[20.7307097, -103.4196304], [20.7739765, -103.4532654]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+        var popup_b2099dd88c3e15d774de3ebee97c233c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cfd39b7fc52559af92202e9ecd903103 = $(`<div id="html_cfd39b7fc52559af92202e9ecd903103" style="width: 100.0%; height: 100.0%;">Route 1: 1000 to 7</div>`)[0];
+                popup_b2099dd88c3e15d774de3ebee97c233c.setContent(html_cfd39b7fc52559af92202e9ecd903103);
+            
+        
+
+        poly_line_5efe915cd34c40af10f1c7df33507fcd.bindPopup(popup_b2099dd88c3e15d774de3ebee97c233c)
+        ;
+
+        
+    
+    
+            var poly_line_fe9261aae7ae7bbf12f4abfbcfc8d378 = L.polyline(
+                [[20.7739765, -103.4532654], [20.7491995, -103.4348342]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+        var popup_d9a643a866c87cdc654e43c45575a191 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_36ce05586b590539f8ea470c7320b7bc = $(`<div id="html_36ce05586b590539f8ea470c7320b7bc" style="width: 100.0%; height: 100.0%;">Route 1: 7 to 115</div>`)[0];
+                popup_d9a643a866c87cdc654e43c45575a191.setContent(html_36ce05586b590539f8ea470c7320b7bc);
+            
+        
+
+        poly_line_fe9261aae7ae7bbf12f4abfbcfc8d378.bindPopup(popup_d9a643a866c87cdc654e43c45575a191)
+        ;
+
+        
+    
+    
+            var poly_line_0dc554b8d82d70db03f6fe00e96753ce = L.polyline(
+                [[20.7307097, -103.4196304], [20.7307097, -103.4196304]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+        var popup_3db83e9cc83d9eacac415bf11d628191 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c365d630f3391f9be58bfc2cb95bd0f = $(`<div id="html_6c365d630f3391f9be58bfc2cb95bd0f" style="width: 100.0%; height: 100.0%;">Route 2: 1000 to 1000</div>`)[0];
+                popup_3db83e9cc83d9eacac415bf11d628191.setContent(html_6c365d630f3391f9be58bfc2cb95bd0f);
+            
+        
+
+        poly_line_0dc554b8d82d70db03f6fe00e96753ce.bindPopup(popup_3db83e9cc83d9eacac415bf11d628191)
+        ;
+
+        
+    
+    
+            var poly_line_ad55fefc6e81b8825454335312255d9c = L.polyline(
+                [[20.7307097, -103.4196304], [20.779818, -103.439507]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+        var popup_fab292f74c0bd509519037a524400594 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a9b82bebbbff62794e1b4db11835f3a6 = $(`<div id="html_a9b82bebbbff62794e1b4db11835f3a6" style="width: 100.0%; height: 100.0%;">Route 2: 1000 to 5</div>`)[0];
+                popup_fab292f74c0bd509519037a524400594.setContent(html_a9b82bebbbff62794e1b4db11835f3a6);
+            
+        
+
+        poly_line_ad55fefc6e81b8825454335312255d9c.bindPopup(popup_fab292f74c0bd509519037a524400594)
+        ;
+
+        
+    
+    
+            var poly_line_1e55fd0ff8c0e45d3b765530bdc64461 = L.polyline(
+                [[20.779818, -103.439507], [20.7793959, -103.4385387]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+        var popup_21feffda09cccf01a4f4634165058ae2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bdbe232910b371dc95d1384ec917bfd9 = $(`<div id="html_bdbe232910b371dc95d1384ec917bfd9" style="width: 100.0%; height: 100.0%;">Route 2: 5 to 136</div>`)[0];
+                popup_21feffda09cccf01a4f4634165058ae2.setContent(html_bdbe232910b371dc95d1384ec917bfd9);
+            
+        
+
+        poly_line_1e55fd0ff8c0e45d3b765530bdc64461.bindPopup(popup_21feffda09cccf01a4f4634165058ae2)
+        ;
+
+        
+    
+    
+            var poly_line_a5af1295df0a54a89057ce62ab4f01c0 = L.polyline(
+                [[20.7307097, -103.4196304], [20.7307097, -103.4196304]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+        var popup_038b197da1e9c626f4d1a03a34819814 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_372aaf54da3509eefd6de2c595f9ba3d = $(`<div id="html_372aaf54da3509eefd6de2c595f9ba3d" style="width: 100.0%; height: 100.0%;">Route 3: 1000 to 1000</div>`)[0];
+                popup_038b197da1e9c626f4d1a03a34819814.setContent(html_372aaf54da3509eefd6de2c595f9ba3d);
+            
+        
+
+        poly_line_a5af1295df0a54a89057ce62ab4f01c0.bindPopup(popup_038b197da1e9c626f4d1a03a34819814)
+        ;
+
+        
+    
+    
+            var poly_line_ef16cddd4e3852b05478ddccab8454b4 = L.polyline(
+                [[20.7307097, -103.4196304], [20.7595087, -103.3783665]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+        var popup_f81af2d4bdb3a7d7225c5ac107e58921 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b64024272757befe8b75f44b07963f14 = $(`<div id="html_b64024272757befe8b75f44b07963f14" style="width: 100.0%; height: 100.0%;">Route 3: 1000 to 6</div>`)[0];
+                popup_f81af2d4bdb3a7d7225c5ac107e58921.setContent(html_b64024272757befe8b75f44b07963f14);
+            
+        
+
+        poly_line_ef16cddd4e3852b05478ddccab8454b4.bindPopup(popup_f81af2d4bdb3a7d7225c5ac107e58921)
+        ;
+
+        
+    
+    
+            var poly_line_99a789a3f722704465d8f143ac140c27 = L.polyline(
+                [[20.7595087, -103.3783665], [20.7573742, -103.4033551]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+        var popup_aad62c9af762212bc683293f05a5fa12 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0eef9be07e96cd02a4a3767a78ef68c4 = $(`<div id="html_0eef9be07e96cd02a4a3767a78ef68c4" style="width: 100.0%; height: 100.0%;">Route 3: 6 to 8</div>`)[0];
+                popup_aad62c9af762212bc683293f05a5fa12.setContent(html_0eef9be07e96cd02a4a3767a78ef68c4);
+            
+        
+
+        poly_line_99a789a3f722704465d8f143ac140c27.bindPopup(popup_aad62c9af762212bc683293f05a5fa12)
+        ;
+
+        
+    
+    
+            var poly_line_2eaecbdba8b4fd2a07d385a1d5b606cf = L.polyline(
+                [[20.7573742, -103.4033551], [20.7428838, -103.4411637]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+        var popup_7d0ce15ec3937aeca478f073d5cfe674 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_95cc533c38afa7c29c0b924c1d276169 = $(`<div id="html_95cc533c38afa7c29c0b924c1d276169" style="width: 100.0%; height: 100.0%;">Route 3: 8 to 118</div>`)[0];
+                popup_7d0ce15ec3937aeca478f073d5cfe674.setContent(html_95cc533c38afa7c29c0b924c1d276169);
+            
+        
+
+        poly_line_2eaecbdba8b4fd2a07d385a1d5b606cf.bindPopup(popup_7d0ce15ec3937aeca478f073d5cfe674)
+        ;
+
+        
+    
+    
+            var poly_line_ae72af38503bd3d95acf716c894ad840 = L.polyline(
+                [[20.7307097, -103.4196304], [20.7307097, -103.4196304]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+        var popup_ab3d299d2fd9c1a68a4da33c41a78eb2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_322a96269bf83db3b1be8fa5d6e496dc = $(`<div id="html_322a96269bf83db3b1be8fa5d6e496dc" style="width: 100.0%; height: 100.0%;">Route 4: 1000 to 1000</div>`)[0];
+                popup_ab3d299d2fd9c1a68a4da33c41a78eb2.setContent(html_322a96269bf83db3b1be8fa5d6e496dc);
+            
+        
+
+        poly_line_ae72af38503bd3d95acf716c894ad840.bindPopup(popup_ab3d299d2fd9c1a68a4da33c41a78eb2)
+        ;
+
+        
+    
+    
+            var poly_line_310e574fb54062d9b77ab7f92cd818cb = L.polyline(
+                [[20.7307097, -103.4196304], [20.7444315, -103.4264417]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+        var popup_364e5da621da6fdeec7b0569ee910fe6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_31e1d23b55b7a15634a8216fe8f5597e = $(`<div id="html_31e1d23b55b7a15634a8216fe8f5597e" style="width: 100.0%; height: 100.0%;">Route 4: 1000 to 9</div>`)[0];
+                popup_364e5da621da6fdeec7b0569ee910fe6.setContent(html_31e1d23b55b7a15634a8216fe8f5597e);
+            
+        
+
+        poly_line_310e574fb54062d9b77ab7f92cd818cb.bindPopup(popup_364e5da621da6fdeec7b0569ee910fe6)
+        ;
+
+        
+    
+    
+            var poly_line_e1495feae898e32c02fe95795036006a = L.polyline(
+                [[20.7444315, -103.4264417], [20.7402078, -103.4185651]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+        var popup_4cb1a3438b0ded95a20857244c477cbe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_732a50f2505c5aa8eeea14c8c8f84c3b = $(`<div id="html_732a50f2505c5aa8eeea14c8c8f84c3b" style="width: 100.0%; height: 100.0%;">Route 4: 9 to 109</div>`)[0];
+                popup_4cb1a3438b0ded95a20857244c477cbe.setContent(html_732a50f2505c5aa8eeea14c8c8f84c3b);
+            
+        
+
+        poly_line_e1495feae898e32c02fe95795036006a.bindPopup(popup_4cb1a3438b0ded95a20857244c477cbe)
+        ;
+
+        
+    
+    
+            var poly_line_813b8dd15bb9f81736f46913d54d2426 = L.polyline(
+                [[20.7307097, -103.4196304], [20.7307097, -103.4196304]],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+        var popup_1ae3103ad778d0ac37130b902e051e6d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c4e4ef4b5b25a9a9dfae42993ade173 = $(`<div id="html_0c4e4ef4b5b25a9a9dfae42993ade173" style="width: 100.0%; height: 100.0%;">Route 5: 1000 to 1000</div>`)[0];
+                popup_1ae3103ad778d0ac37130b902e051e6d.setContent(html_0c4e4ef4b5b25a9a9dfae42993ade173);
+            
+        
+
+        poly_line_813b8dd15bb9f81736f46913d54d2426.bindPopup(popup_1ae3103ad778d0ac37130b902e051e6d)
+        ;
+
+        
+    
+    
+            var poly_line_73b319ffa1da78baf48822a0cce825db = L.polyline(
+                [[20.7307097, -103.4196304], [20.7463704, -103.4086465]],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+        var popup_132c342df5c45f935fe75c3d49291eef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_143c585940a68ee6e856ade873e7946c = $(`<div id="html_143c585940a68ee6e856ade873e7946c" style="width: 100.0%; height: 100.0%;">Route 5: 1000 to 11</div>`)[0];
+                popup_132c342df5c45f935fe75c3d49291eef.setContent(html_143c585940a68ee6e856ade873e7946c);
+            
+        
+
+        poly_line_73b319ffa1da78baf48822a0cce825db.bindPopup(popup_132c342df5c45f935fe75c3d49291eef)
+        ;
+
+        
+    
+    
+            var poly_line_595231fc23882867d7ac1b2819858d0b = L.polyline(
+                [[20.7463704, -103.4086465], [20.7645937, -103.4196702]],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+        var popup_31a3c98ce1b3dd6e39d3020824e0bd0a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f01e824d7d30d022d5d0b9b47cd81d0 = $(`<div id="html_9f01e824d7d30d022d5d0b9b47cd81d0" style="width: 100.0%; height: 100.0%;">Route 5: 11 to 4</div>`)[0];
+                popup_31a3c98ce1b3dd6e39d3020824e0bd0a.setContent(html_9f01e824d7d30d022d5d0b9b47cd81d0);
+            
+        
+
+        poly_line_595231fc23882867d7ac1b2819858d0b.bindPopup(popup_31a3c98ce1b3dd6e39d3020824e0bd0a)
+        ;
+
+        
+    
+    
+            var poly_line_86bebe35e85a65473d701f9175880a6d = L.polyline(
+                [[20.7645937, -103.4196702], [20.7931769, -103.4624804]],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+        var popup_e3706312a0570ac72a82617c5ecb510f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b25eb603065a8695ac70034d768bafb7 = $(`<div id="html_b25eb603065a8695ac70034d768bafb7" style="width: 100.0%; height: 100.0%;">Route 5: 4 to 123</div>`)[0];
+                popup_e3706312a0570ac72a82617c5ecb510f.setContent(html_b25eb603065a8695ac70034d768bafb7);
+            
+        
+
+        poly_line_86bebe35e85a65473d701f9175880a6d.bindPopup(popup_e3706312a0570ac72a82617c5ecb510f)
+        ;
+
+        
+    
+    
+            var poly_line_efc0ecbdc3bd00ed5fe63f2a11a5459d = L.polyline(
+                [[20.7307097, -103.4196304], [20.7307097, -103.4196304]],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+        var popup_f4f9afd3958f1dba7651098577ff9f97 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e22834fa9bf1734dafc8565b111d4d16 = $(`<div id="html_e22834fa9bf1734dafc8565b111d4d16" style="width: 100.0%; height: 100.0%;">Route 6: 1000 to 1000</div>`)[0];
+                popup_f4f9afd3958f1dba7651098577ff9f97.setContent(html_e22834fa9bf1734dafc8565b111d4d16);
+            
+        
+
+        poly_line_efc0ecbdc3bd00ed5fe63f2a11a5459d.bindPopup(popup_f4f9afd3958f1dba7651098577ff9f97)
+        ;
+
+        
+    
+    
+            var poly_line_d6939e7059e81450a487aad79509928c = L.polyline(
+                [[20.7307097, -103.4196304], [20.7374419, -103.4118717]],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+        var popup_27006688821c33dafddd3de5ad8dcb13 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c874ff595cc6d9df84f6ef2c71120ae = $(`<div id="html_8c874ff595cc6d9df84f6ef2c71120ae" style="width: 100.0%; height: 100.0%;">Route 6: 1000 to 2</div>`)[0];
+                popup_27006688821c33dafddd3de5ad8dcb13.setContent(html_8c874ff595cc6d9df84f6ef2c71120ae);
+            
+        
+
+        poly_line_d6939e7059e81450a487aad79509928c.bindPopup(popup_27006688821c33dafddd3de5ad8dcb13)
+        ;
+
+        
+    
+    
+            var poly_line_a032b3bdf3abd6cdc88c177ab37e08a3 = L.polyline(
+                [[20.7374419, -103.4118717], [20.7312874, -103.4107494]],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+        var popup_f07eaeeb02b05d4cbe70d4ab4ec4135b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c2ecd6e244b192916560c38fc6bcd25 = $(`<div id="html_5c2ecd6e244b192916560c38fc6bcd25" style="width: 100.0%; height: 100.0%;">Route 6: 2 to 3</div>`)[0];
+                popup_f07eaeeb02b05d4cbe70d4ab4ec4135b.setContent(html_5c2ecd6e244b192916560c38fc6bcd25);
+            
+        
+
+        poly_line_a032b3bdf3abd6cdc88c177ab37e08a3.bindPopup(popup_f07eaeeb02b05d4cbe70d4ab4ec4135b)
+        ;
+
+        
+    
+    
+            var poly_line_d85b3ae478d693e0dd2fee0cb7241e79 = L.polyline(
+                [[20.7312874, -103.4107494], [20.7277106, -103.4236882]],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+        var popup_6b511f8fc052e4f214cdffc636919992 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cb6174d80533efec0375c7ba362efd27 = $(`<div id="html_cb6174d80533efec0375c7ba362efd27" style="width: 100.0%; height: 100.0%;">Route 6: 3 to 12</div>`)[0];
+                popup_6b511f8fc052e4f214cdffc636919992.setContent(html_cb6174d80533efec0375c7ba362efd27);
+            
+        
+
+        poly_line_d85b3ae478d693e0dd2fee0cb7241e79.bindPopup(popup_6b511f8fc052e4f214cdffc636919992)
+        ;
+
+        
+    
+    
+            var poly_line_e5f25a928c4578d47a27373bfd3982a8 = L.polyline(
+                [[20.7277106, -103.4236882], [20.741361, -103.425519]],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+        var popup_76f9a9421ca6bb6f3934220cd62fb5ed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc6770954356734b6ef663ee3a8f611a = $(`<div id="html_fc6770954356734b6ef663ee3a8f611a" style="width: 100.0%; height: 100.0%;">Route 6: 12 to 113</div>`)[0];
+                popup_76f9a9421ca6bb6f3934220cd62fb5ed.setContent(html_fc6770954356734b6ef663ee3a8f611a);
+            
+        
+
+        poly_line_e5f25a928c4578d47a27373bfd3982a8.bindPopup(popup_76f9a9421ca6bb6f3934220cd62fb5ed)
+        ;
+
+        
+    
+    
+            var poly_line_8baae823dae2dc78c1c7a228448dabd7 = L.polyline(
+                [[20.7307097, -103.4196304], [20.7307097, -103.4196304]],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkgreen", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+        var popup_437181b15c69633eb1e4e82515375773 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d39d0e88a3fa86e7bb45a78ee50fbbaf = $(`<div id="html_d39d0e88a3fa86e7bb45a78ee50fbbaf" style="width: 100.0%; height: 100.0%;">Route 7: 1000 to 1000</div>`)[0];
+                popup_437181b15c69633eb1e4e82515375773.setContent(html_d39d0e88a3fa86e7bb45a78ee50fbbaf);
+            
+        
+
+        poly_line_8baae823dae2dc78c1c7a228448dabd7.bindPopup(popup_437181b15c69633eb1e4e82515375773)
+        ;
+
+        
+    
+    
+            var poly_line_1c2227323b101a13fed8b27ca9508d75 = L.polyline(
+                [[20.7307097, -103.4196304], [20.7147632, -103.4179045]],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkgreen", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+        var popup_9a4a97d1a9fd3b8fa035246334dbbc62 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f7c45bedfc1ff57d200b42fb12dfd721 = $(`<div id="html_f7c45bedfc1ff57d200b42fb12dfd721" style="width: 100.0%; height: 100.0%;">Route 7: 1000 to 13</div>`)[0];
+                popup_9a4a97d1a9fd3b8fa035246334dbbc62.setContent(html_f7c45bedfc1ff57d200b42fb12dfd721);
+            
+        
+
+        poly_line_1c2227323b101a13fed8b27ca9508d75.bindPopup(popup_9a4a97d1a9fd3b8fa035246334dbbc62)
+        ;
+
+        
+    
+    
+            var poly_line_0356c5dcbac0612d0d703ec0cc2595fb = L.polyline(
+                [[20.7147632, -103.4179045], [20.7081507, -103.4227915]],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkgreen", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+        var popup_1dae98abc800fa23284fb2d4c66adf4a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_09d544502647c5a47df078c1eb4d79a6 = $(`<div id="html_09d544502647c5a47df078c1eb4d79a6" style="width: 100.0%; height: 100.0%;">Route 7: 13 to 1</div>`)[0];
+                popup_1dae98abc800fa23284fb2d4c66adf4a.setContent(html_09d544502647c5a47df078c1eb4d79a6);
+            
+        
+
+        poly_line_0356c5dcbac0612d0d703ec0cc2595fb.bindPopup(popup_1dae98abc800fa23284fb2d4c66adf4a)
+        ;
+
+        
+    
+    
+            var poly_line_6d8898fefb07f045d38262bb32cc7076 = L.polyline(
+                [[20.7081507, -103.4227915], [20.7379958, -103.4130039]],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkgreen", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a9096f9861bd5645c52f4893184fa215);
+        
+    
+        var popup_ff376246ae7254060fec8b3cc2cb85f4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f85c4e129ab61c497e05dd478133a40 = $(`<div id="html_2f85c4e129ab61c497e05dd478133a40" style="width: 100.0%; height: 100.0%;">Route 7: 1 to 105</div>`)[0];
+                popup_ff376246ae7254060fec8b3cc2cb85f4.setContent(html_2f85c4e129ab61c497e05dd478133a40);
+            
+        
+
+        poly_line_6d8898fefb07f045d38262bb32cc7076.bindPopup(popup_ff376246ae7254060fec8b3cc2cb85f4)
+        ;
+
+        
+    
+</script>
+</html>
